@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d904e47d2014418a2974660750ff7c3a",
+    "packages": [
+        {
+            "name": "bcosca/fatfree",
+            "version": "3.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree.git",
+                "reference": "1d1fe8fee4ec868d9ce5f90973b722c9c2515428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree/zipball/1d1fe8fee4ec868d9ce5f90973b722c9c2515428",
+                "reference": "1d1fe8fee4ec868d9ce5f90973b722c9c2515428",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/base.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "time": "2017-12-31T14:47:25+00:00"
+        },
+        {
+            "name": "delkano/f3-jsonapi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/delkano/f3-jsonapi.git",
+                "reference": "da66da1ea6625036ebe8b95076bcf12e1c8cebdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/delkano/f3-jsonapi/zipball/da66da1ea6625036ebe8b95076bcf12e1c8cebdb",
+                "reference": "da66da1ea6625036ebe8b95076bcf12e1c8cebdb",
+                "shasum": ""
+            },
+            "require": {
+                "bcosca/fatfree": "^3.6",
+                "ikkez/f3-cortex": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "A few helpful classes for quick implementation of a JsonAPI server with the FatFreeFramework",
+            "homepage": "https://github.com/delkano/f3-jsonapi",
+            "keywords": [
+                "F3",
+                "fatfree",
+                "jsonapi"
+            ],
+            "support": {
+                "source": "https://github.com/delkano/f3-jsonapi/tree/master",
+                "issues": "https://github.com/delkano/f3-jsonapi/issues"
+            },
+            "time": "2018-01-30T10:33:25+00:00"
+        },
+        {
+            "name": "ikkez/f3-cortex",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ikkez/f3-cortex.git",
+                "reference": "2cd1712eeae33c9d05716e8a1d8e3796f0ea4016"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/2cd1712eeae33c9d05716e8a1d8e3796f0ea4016",
+                "reference": "2cd1712eeae33c9d05716e8a1d8e3796f0ea4016",
+                "shasum": ""
+            },
+            "require": {
+                "ikkez/f3-schema-builder": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A multi-engine ORM / ODM for the PHP Fat-Free Framework",
+            "homepage": "https://github.com/ikkez/f3-cortex",
+            "keywords": [
+                "F3",
+                "fatfree",
+                "mongo",
+                "orm",
+                "sql"
+            ],
+            "time": "2017-06-30T13:23:09+00:00"
+        },
+        {
+            "name": "ikkez/f3-schema-builder",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ikkez/f3-schema-builder.git",
+                "reference": "9c15676247e6f85a28c9f5db126b9030cdc5dc05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ikkez/f3-schema-builder/zipball/9c15676247e6f85a28c9f5db126b9030cdc5dc05",
+                "reference": "9c15676247e6f85a28c9f5db126b9030cdc5dc05",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "SQL Schema Builder Plugin for PHP Fat-Free Framework",
+            "homepage": "https://github.com/ikkez/f3-schema-builder",
+            "keywords": [
+                "F3",
+                "fatfree",
+                "sql"
+            ],
+            "time": "2017-04-25T20:19:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "delkano/f3-jsonapi": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

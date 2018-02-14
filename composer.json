@@ -1,0 +1,13 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/delkano/f3-jsonapi"
+        }
+    ],
+     "require": {
+        "ikkez/f3-cortex": "^1.5",
+        "bcosca/fatfree": "^3.6",
+        "delkano/f3-jsonapi": "@dev"
+    }
+}

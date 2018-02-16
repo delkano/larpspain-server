@@ -1,4 +1,3 @@
-
 <?php
 namespace Model;
 
@@ -33,11 +32,12 @@ class Place extends \DB\Cortex {
                 'has-many' => array('\Model\Event', 'place')
             ),
             'tags' => array(
-                'has-many' => array('\Model\Tag')
+                'has-many' => array('\Model\Tag', 'places')
             ),
             'owner' => array(
-                'belongs-to-one' => array('\Model\User')
+                'belongs-to-one' => '\Model\User'
             ),
+        ),
         $db = 'DB',
         $fluid = true,
         $table = 'place';

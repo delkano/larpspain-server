@@ -1,4 +1,3 @@
-
 <?php
 namespace Model;
 
@@ -22,11 +21,12 @@ class File extends \DB\Cortex {
                 'nullable' => true
             ),
            'owner' => array(
-                'belongs-to-one' => array('\Model\User')
+                'belongs-to-one' => '\Model\User'
             ),
            'tags' => array(
-                'has-many' => array('\Model\Tag')
+                'has-many' => array('\Model\Tag', 'files')
             ),
+        ),
         $db = 'DB',
         $fluid = true,
         $table = 'file';

@@ -1,4 +1,3 @@
-
 <?php
 namespace Model;
 
@@ -18,11 +17,12 @@ class Page extends \DB\Cortex {
                 'nullable' => false
             ),
             'owner' => array(
-                'belongs-to-one' => array('\Model\User')
+                'belongs-to-one' => '\Model\User'
             ),
             'tags' => array(
-                'has-many' => array('\Model\Tag')
+                'has-many' => array('\Model\Tag', 'pages')
             ),
+        ),
         $db = 'DB',
         $fluid = true,
         $table = 'page';

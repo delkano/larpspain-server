@@ -1,4 +1,3 @@
-
 <?php
 namespace Model;
 
@@ -25,14 +24,12 @@ class Event extends \DB\Cortex {
                 'has-many' => array('\Model\User', 'events')
             ),
            'tags' => array(
-                'has-many' => array('\Model\Tag')
-            ),
-           'news' => array(
-                'has-many' => array('\Model\News')
+                'has-many' => array('\Model\Tag', 'events')
             ),
            'place' => array(
-                'belongs-to-one' => array('\Model\Place')
+                'belongs-to-one' => '\Model\Place'
             ),
+        ),
         $db = 'DB',
         $fluid = true,
         $table = 'event';

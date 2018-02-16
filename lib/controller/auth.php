@@ -16,7 +16,6 @@ class Auth {
                 return $this->issue_token($f3, $user);
             }  else
                     $f3->error(401, "Wrong credentials.");
-            }
         } else {
             $f3->error(400, "Bad request");
         }

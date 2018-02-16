@@ -1,4 +1,3 @@
-
 <?php
 namespace Model;
 
@@ -14,20 +13,21 @@ class Tag extends \DB\Cortex {
                 'nullable' => true
             ),
            'news' => array(
-                'has-many' => array('\Model\News')
+                'has-many' => array('\Model\News', 'tags')
             ),
            'events' => array(
-                'has-many' => array('\Model\Event')
+                'has-many' => array('\Model\Event', 'tags')
             ),
            'places' => array(
-                'has-many' => array('\Model\Place')
+                'has-many' => array('\Model\Place', 'tags')
             ),
            'pages' => array(
-                'has-many' => array('\Model\Page')
+                'has-many' => array('\Model\Page', 'tags')
             ),
            'files' => array(
-                'has-many' => array('\Model\File')
+                'has-many' => array('\Model\File', 'tags')
             ),
+        ),
         $db = 'DB',
         $fluid = true,
         $table = 'tag';

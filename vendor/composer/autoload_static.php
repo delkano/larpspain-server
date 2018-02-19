@@ -13,6 +13,7 @@ class ComposerStaticInit9482b441f93c5c7614858bdff8fb5c33
     public static $classMap = array (
         'Controller\\Fallback' => __DIR__ . '/..' . '/delkano/f3-jsonapi/lib/controller/fallback.php',
         'Controller\\JsonApi' => __DIR__ . '/..' . '/delkano/f3-jsonapi/lib/controller/jsonapi.php',
+        'Controller\\Readable' => __DIR__ . '/..' . '/delkano/f3-jsonapi/lib/controller/readable.php',
         'Controller\\Restricted' => __DIR__ . '/..' . '/delkano/f3-jsonapi/lib/controller/restricted.php',
         'DB\\Cortex' => __DIR__ . '/..' . '/ikkez/f3-cortex/lib/db/cortex.php',
         'DB\\CortexCollection' => __DIR__ . '/..' . '/ikkez/f3-cortex/lib/db/cortex.php',

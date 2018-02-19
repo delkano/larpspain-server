@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Controller\\Fallback' => $vendorDir . '/delkano/f3-jsonapi/lib/controller/fallback.php',
     'Controller\\JsonApi' => $vendorDir . '/delkano/f3-jsonapi/lib/controller/jsonapi.php',
+    'Controller\\Readable' => $vendorDir . '/delkano/f3-jsonapi/lib/controller/readable.php',
     'Controller\\Restricted' => $vendorDir . '/delkano/f3-jsonapi/lib/controller/restricted.php',
     'DB\\Cortex' => $vendorDir . '/ikkez/f3-cortex/lib/db/cortex.php',
     'DB\\CortexCollection' => $vendorDir . '/ikkez/f3-cortex/lib/db/cortex.php',

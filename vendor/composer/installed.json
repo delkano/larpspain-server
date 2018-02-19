@@ -39,19 +39,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/delkano/f3-jsonapi.git",
-            "reference": "da66da1ea6625036ebe8b95076bcf12e1c8cebdb"
+            "reference": "658b454191f61de88df6d3aff896294de3386462"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/delkano/f3-jsonapi/zipball/da66da1ea6625036ebe8b95076bcf12e1c8cebdb",
-            "reference": "da66da1ea6625036ebe8b95076bcf12e1c8cebdb",
+            "url": "https://api.github.com/repos/delkano/f3-jsonapi/zipball/658b454191f61de88df6d3aff896294de3386462",
+            "reference": "658b454191f61de88df6d3aff896294de3386462",
             "shasum": ""
         },
         "require": {
             "bcosca/fatfree": "^3.6",
             "ikkez/f3-cortex": "1.*"
         },
-        "time": "2018-01-30T10:33:25+00:00",
+        "time": "2018-02-19T16:45:06+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {

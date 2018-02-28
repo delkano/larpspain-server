@@ -12,8 +12,12 @@ class Place extends \DB\Cortex {
                 'type' => 'TEXT',
                 'nullable' => true
             ),
-            'date' => array(
-                'type' => 'DATE',
+            'created' => array(
+                'type' => 'INT8',
+                'nullable' => false
+            ),
+            'edited' => array(
+                'type' => 'INT8',
                 'nullable' => false
             ),
             'address' => array(
@@ -41,5 +45,21 @@ class Place extends \DB\Cortex {
         $db = 'DB',
         $fluid = true,
         $table = 'place';
+
+	public function __construct() {
+        parent::__construct();
+
+        $this->beforeinsert(function($self) {
+            $self->set("created", time());
+            $self->set("owner", \Base::intance()->get("user"));
+        });
+
+        $this->beforesave(function($self) {
+            if(empty($self->get("name"))) {
+                \Base::instance()->error(400, "Name can not be empty");
+            }
+            $self->set("edited", time());
+        });
+    }
 }
 

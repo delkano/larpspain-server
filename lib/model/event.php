@@ -33,5 +33,19 @@ class Event extends \DB\Cortex {
         $db = 'DB',
         $fluid = true,
         $table = 'event';
+
+	public function __construct() {
+        parent::__construct();
+
+        $this->beforesave(function($self) {
+            if(empty($self->get("name"))) {
+                \Base::instance()->error(400, "Name can not be empty");
+            }
+            if(empty($self->get("date"))) { // Date needs more validation
+                \Base::instance()->error(400, "Date can not be empty");
+            }
+        });
+    }
+
 }
 

@@ -12,13 +12,13 @@ class File extends \DB\Cortex {
                 'type' => 'TEXT',
                 'nullable' => true
             ),
-            'date' => array(
-                'type' => 'DATE',
+            'created' => array(
+                'type' => 'INT8',
                 'nullable' => false
             ),
             'filename' => array(
                 'type' => 'VARCHAR256',
-                'nullable' => true
+                'nullable' => false
             ),
            'owner' => array(
                 'belongs-to-one' => '\Model\User'
@@ -30,5 +30,19 @@ class File extends \DB\Cortex {
         $db = 'DB',
         $fluid = true,
         $table = 'file';
+
+	public function __construct() {
+        parent::__construct();
+
+        $this->beforeinsert(function($self) {
+            $self->set("created", time());
+        });
+
+        $this->beforesave(function($self) {
+            if(empty($self->get("name"))) {
+                \Base::instance()->error(400, "Name can not be empty");
+            }
+        });
+    }
 }
 

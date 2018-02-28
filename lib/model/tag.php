@@ -31,5 +31,15 @@ class Tag extends \DB\Cortex {
         $db = 'DB',
         $fluid = true,
         $table = 'tag';
+
+	public function __construct() {
+        parent::__construct();
+
+        $this->beforesave(function($self) {
+            if(empty($self->get("name"))) {
+                \Base::instance()->error(400, "Name can not be empty");
+            }
+        });
+    }
 }
 

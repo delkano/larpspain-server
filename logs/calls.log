@@ -18,3 +18,9 @@ Thu, 01 Mar 2018 12:31:06 +0000 [172.18.0.1] GET /
 Thu, 01 Mar 2018 12:37:28 +0000 [172.18.0.1] GET /api/users
 Thu, 01 Mar 2018 12:37:34 +0000 [172.18.0.1] GET /api/
 Thu, 01 Mar 2018 12:38:07 +0000 [172.18.0.1] GET /api/users
+Thu, 01 Mar 2018 15:58:27 +0000 [172.18.0.1] GET /api/users
+Thu, 01 Mar 2018 15:58:30 +0000 [172.18.0.1] GET /api/places
+Thu, 01 Mar 2018 15:58:35 +0000 [172.18.0.1] GET /api/placediffs
+Thu, 01 Mar 2018 15:58:36 +0000 [172.18.0.1] GET /api/places
+Thu, 01 Mar 2018 15:58:37 +0000 [172.18.0.1] GET /api/users
+Thu, 01 Mar 2018 17:19:55 +0000 [172.18.0.1] GET /api/users

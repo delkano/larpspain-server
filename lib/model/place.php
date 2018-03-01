@@ -59,6 +59,13 @@ class Place extends \DB\Cortex {
                 \Base::instance()->error(400, "Name can not be empty");
             }
             $self->set("edited", time());
+
+            $diff = new \Model\PlaceDiff;
+            $diff->set("name", $self->get("name"));
+            $diff->set("description", $self->get("description"));
+            $diff->set("address", $self->get("address"));
+            $diff->set("coords", $self->get("coords"));
+            $diff->save();
         });
     }
 }

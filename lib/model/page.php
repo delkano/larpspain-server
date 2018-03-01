@@ -26,6 +26,9 @@ class Page extends \DB\Cortex {
             'tags' => array(
                 'has-many' => array('\Model\Tag', 'pages')
             ),
+            'diffs' => array(
+                'has-many' => array('\Model\PageDiff', 'page')
+            ),
         ),
         $db = 'DB',
         $fluid = true,
@@ -44,6 +47,11 @@ class Page extends \DB\Cortex {
                 \Base::instance()->error(400, "Title can not be empty");
             }
             $self->set("edited", time());
+
+            $diff = new \Model\PageDiff;
+            $diff->set("title", $self->get("title"));
+            $diff->set("content", $self->get("content"));
+            $diff->save();
         });
     }
 }

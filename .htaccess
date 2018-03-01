@@ -9,12 +9,12 @@ RewriteEngine On
 # In such cases, it should be the path (relative to the document root)
 # containing this .htaccess file
 #
-# RewriteBase /
+#RewriteBase /
 
 RewriteRule ^(tmp)\/|\.ini$ - [R=404]
 
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule api/.* www/index.php [L,QSA]
+RewriteRule api/.* html/index.php [L,QSA]
 RewriteRule .api/* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]

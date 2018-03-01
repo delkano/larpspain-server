@@ -57,7 +57,7 @@ class User extends \DB\Cortex {
             ),
             'created' => array(
                 'type' => 'INT8',
-                'default' => 0,
+                'default' => \DB\SQL\Schema::DF_CURRENT_TIMESTAMP,
                 'nullable' => false
             )
         ),

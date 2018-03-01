@@ -5,10 +5,7 @@ services:
         ports:
             - "8001:80"
         volumes:
-            - ./config.ini:/var/www/config.ini
-            - ./logs:/var/www/logs
-            - ./lib:/var/www/lib
-            - ./vendor:/var/www/vendor
+            - .:/var/www/
             - ./www:/var/www/html/
         links:
             - db

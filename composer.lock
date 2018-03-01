@@ -43,12 +43,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/delkano/f3-jsonapi.git",
-                "reference": "658b454191f61de88df6d3aff896294de3386462"
+                "reference": "35ec466d8fdbad150fc41b80b903cba61977ef33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delkano/f3-jsonapi/zipball/658b454191f61de88df6d3aff896294de3386462",
-                "reference": "658b454191f61de88df6d3aff896294de3386462",
+                "url": "https://api.github.com/repos/delkano/f3-jsonapi/zipball/35ec466d8fdbad150fc41b80b903cba61977ef33",
+                "reference": "35ec466d8fdbad150fc41b80b903cba61977ef33",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "source": "https://github.com/delkano/f3-jsonapi/tree/master",
                 "issues": "https://github.com/delkano/f3-jsonapi/issues"
             },
-            "time": "2018-02-19T16:45:06+00:00"
+            "time": "2018-02-19T16:59:17+00:00"
         },
         {
             "name": "ikkez/f3-cortex",

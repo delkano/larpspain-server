@@ -6,14 +6,17 @@ class User extends \DB\Cortex {
         $fieldConf = array(
             'email' => array(
                 'type' => 'VARCHAR256',
+                'default' => '',
                 'nullable' => false
             ),
              'password' => array(
                 'type' => 'VARCHAR256',
+                'default' => '',
                 'nullable' => false
             ),
             'name' => array(
                 'type' => 'VARCHAR256',
+                'default' => '',
                 'nullable' => false
             ),
            'page' => array(
@@ -54,6 +57,7 @@ class User extends \DB\Cortex {
             ),
             'created' => array(
                 'type' => 'INT8',
+                'default' => 0,
                 'nullable' => false
             )
         ),

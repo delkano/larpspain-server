@@ -29,27 +29,12 @@ $f3->set("ONERROR", function($f3) {
 });
 
 // Database connection
-if(file_exists($f3->get("DB_NAME")))  {
-    $f3->set('DB', new \DB\SQL('sqlite:'.$f3->get('DB_NAME')));
-} else { //DB creation
-    $f3->set('DB', new \DB\SQL('sqlite:'.$f3->get('DB_NAME')));
-    $models = $f3->models;
-    foreach($models as $model) {
-        echo "Creating the $model table";
-        $class = "\Model\\$model";
-        $class::setup();
-    }
-    // Let's create an admin user
-    $admin = new \Model\User;
-    $admin->name = "Administrator";
-    $admin->email = "admin@admin.now";
-    $admin->password = password_hash("admin", PASSWORD_DEFAULT);
-    $admin->role = "ADMIN";
-    $admin->created = time();
-    $admin->verified = true;
-    $admin->save();
-}
-
+$f3->set('DB', new DB\SQL(
+    "mysql:host=$f3[DB_SERVER];port=$f3[DB_PORT];dbname=$f3[DB_NAME]",
+    $f3['DB_USER'],
+    $f3['DB_PASSWORD']
+));
+    
 
 // Let's log the routes called
 $log = new Log("calls.log");

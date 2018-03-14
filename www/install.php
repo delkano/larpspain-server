@@ -27,7 +27,7 @@ foreach($models as $model) {
 $admin = new \Model\User;
 $admin->name = "Administrator";
 $admin->email = "admin@admin.now";
-$admin->password = password_hash("admin", PASSWORD_DEFAULT);
+$admin->password = "admin";
 $admin->role = "ADMIN";
 $admin->created = time();
 $admin->verified = true;

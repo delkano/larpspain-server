@@ -135,7 +135,7 @@ class User extends \DB\Cortex {
     public function validate($password) {
         return !$this->dry()
             && $this->get("verified")
-            && password_verify($password, $this->get("validated")); 
+            && password_verify($password, $this->get("password")); 
     }
 
     // When loading with email verification

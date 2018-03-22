@@ -23,7 +23,9 @@ class News extends \DB\Cortex {
                 'has-many' => array('\Model\Tag', 'news')
             ),
             'created' => array(
-                'type' => 'INT8'
+                'type' => 'INT8',
+                'default' => 0,
+                'nullable' => false
             )
         ),
         $db = 'DB',

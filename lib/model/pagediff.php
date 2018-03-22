@@ -14,7 +14,8 @@ class PageDiff extends \DB\Cortex {
             ),
             'created' => array(
                 'type' => 'INT8',
-                'nullable' => false
+                'nullable' => false,
+                'default' => 0,
             ),
             'page' => array(
                 'belongs-to-one' => '\Model\Page'

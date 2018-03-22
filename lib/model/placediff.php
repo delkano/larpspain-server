@@ -12,6 +12,8 @@ class PlaceDiff extends \DB\Cortex {
             ),
             'created' => array(
                 'type' => 'INT8',
+                'default' => 0,
+                'nullable' => false
             ),
             'address' => array(
                 'type' => 'VARCHAR256',
@@ -41,7 +43,7 @@ class PlaceDiff extends \DB\Cortex {
 
         $this->beforeinsert(function($self) {
             $self->set("created", time());
-            $self->set("owner", \Base::intance()->get("user"));
+            $self->set("owner", \Base::instance()->get("user"));
         });
     }
 }

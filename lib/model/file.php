@@ -14,7 +14,8 @@ class File extends \DB\Cortex {
             ),
             'created' => array(
                 'type' => 'INT8',
-                'nullable' => false
+                'nullable' => false,
+                'default' => 0,
             ),
             'filename' => array(
                 'type' => 'VARCHAR256',

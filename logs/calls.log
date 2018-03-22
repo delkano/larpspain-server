@@ -51,3 +51,418 @@ Wed, 14 Mar 2018 17:18:16 +0000 [172.19.0.1] POST /api/login?username=admin@admi
 Wed, 14 Mar 2018 17:22:36 +0000 [172.19.0.1] GET /api/users
 Wed, 14 Mar 2018 17:22:39 +0000 [172.19.0.1] GET /api/users
 Wed, 14 Mar 2018 17:22:43 +0000 [172.19.0.1] POST /api/login?username=admin@admin.now&password=admin
+Wed, 14 Mar 2018 17:24:56 +0000 [172.19.0.1] POST /api/login?username=admin@admin.now&password=admin
+Fri, 16 Mar 2018 13:52:37 +0000 [172.19.0.1] GET /api/users
+Thu, 22 Mar 2018 17:45:57 +0000 [172.19.0.1] GET /api/users
+Thu, 22 Mar 2018 17:45:59 +0000 [172.19.0.1] GET /api/users
+Thu, 22 Mar 2018 17:46:01 +0000 [172.19.0.1] GET /api/users
+Thu, 22 Mar 2018 17:46:04 +0000 [172.19.0.1] GET /api/users
+Thu, 22 Mar 2018 17:46:05 +0000 [172.19.0.1] GET /api/users
+Thu, 22 Mar 2018 18:00:09 +0000 [172.19.0.1] GET /
+Thu, 22 Mar 2018 18:00:38 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:02:31 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:02:53 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:03:07 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:03:51 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:04:30 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:04:41 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:05:44 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:06:07 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:06:25 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:07:21 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:21:21 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:21:36 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:21:55 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:22:16 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:23:00 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:24:43 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:26:51 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:27:03 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:27:15 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:27:57 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:28:09 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:29:35 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:29:46 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:30:12 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:33:05 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:33:23 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:34:39 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:37:45 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:38:17 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:38:29 +0000 [172.19.0.1] OPTIONS /api/places
+Thu, 22 Mar 2018 18:38:29 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:43:15 +0000 [172.19.0.1] POST /api/login
+Thu, 22 Mar 2018 18:43:44 +0000 [172.19.0.1] POST /api/login
+Thu, 22 Mar 2018 18:44:24 +0000 [172.19.0.1] POST /api/login?username=admin@admin.now&password=admin
+Thu, 22 Mar 2018 18:48:42 +0000 [172.19.0.1] POST /api/login?username=admin@admin.now&password=admin
+Thu, 22 Mar 2018 18:48:46 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 18:50:02 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:50:23 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:52:47 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:53:19 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:53:19 +0000 [172.19.0.1] array (
+  'name' => 'Test1',
+  'description' => 'Great place for things and such',
+  'address' => 'Wherever, blahblah',
+)
+Thu, 22 Mar 2018 18:53:56 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:53:56 +0000 [172.19.0.1] array (
+  'data' => 
+  array (
+    'name' => 'Test1',
+    'description' => 'Great place for things and such',
+    'address' => 'Wherever, blahblah',
+  ),
+)
+Thu, 22 Mar 2018 18:54:13 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:54:13 +0000 [172.19.0.1] array (
+  'data' => 
+  array (
+    'name' => 'Test1',
+    'description' => 'Great place for things and such',
+    'address' => 'Wherever, blahblah',
+  ),
+)
+Thu, 22 Mar 2018 18:54:17 +0000 [172.19.0.1] POST /api/login?username=admin@admin.now&password=admin
+Thu, 22 Mar 2018 18:54:21 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:54:21 +0000 [172.19.0.1] array (
+  'data' => 
+  array (
+    'name' => 'Test1',
+    'description' => 'Great place for things and such',
+    'address' => 'Wherever, blahblah',
+  ),
+)
+Thu, 22 Mar 2018 18:54:53 +0000 [172.19.0.1] POST /api/login
+Thu, 22 Mar 2018 18:55:01 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:55:01 +0000 [172.19.0.1] array (
+  'data' => 
+  array (
+    'name' => 'Test1',
+    'description' => 'Great place for things and such',
+    'address' => 'Wherever, blahblah',
+  ),
+)
+Thu, 22 Mar 2018 18:56:52 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:56:52 +0000 [172.19.0.1] Model\Place::__set_state(array(
+   'fieldConf' => 
+  array (
+    'name' => 
+    array (
+      'type' => 'VARCHAR256',
+      'nullable' => false,
+    ),
+    'description' => 
+    array (
+      'type' => 'TEXT',
+      'nullable' => true,
+    ),
+    'created' => 
+    array (
+      'type' => 'INT8',
+      'nullable' => false,
+    ),
+    'edited' => 
+    array (
+      'type' => 'INT8',
+      'nullable' => false,
+    ),
+    'address' => 
+    array (
+      'type' => 'VARCHAR256',
+      'nullable' => true,
+    ),
+    'coords' => 
+    array (
+      'type' => 'VARCHAR256',
+      'nullable' => true,
+    ),
+    'link' => 
+    array (
+      'type' => 'VARCHAR256',
+      'nullable' => true,
+    ),
+    'events' => 
+    array (
+      'has-many' => 
+      array (
+        0 => '\\Model\\Event',
+        1 => 'place',
+        'hasRel' => 'belongs-to-one',
+        'relField' => 'id',
+      ),
+      'relType' => 'has-many',
+      'type' => 'INT4',
+    ),
+    'tags' => 
+    array (
+      'has-many' => 
+      array (
+        0 => '\\Model\\Tag',
+        1 => 'places',
+        'hasRel' => 'has-many',
+        'isSelf' => false,
+        'relTable' => 'tag',
+        'relField' => 'places',
+        'relFieldType' => 'INT4',
+        'relPK' => 'id',
+      ),
+      'relType' => 'has-many',
+      'type' => 'INT4',
+    ),
+    'owner' => 
+    array (
+      'belongs-to-one' => '\\Model\\User',
+      'type' => 'INT4',
+      'nullable' => true,
+      'relType' => 'belongs-to-one',
+    ),
+  ),
+   'db' => 
+  DB\SQL::__set_state(array(
+     'uuid' => '2x5aqr2xbiuck',
+     'pdo' => 
+    PDO::__set_state(array(
+    )),
+     'dsn' => 'mysql:host=db;port=3306;dbname=myDb',
+     'engine' => 'mysql',
+     'dbname' => 'myDb',
+     'trans' => false,
+     'rows' => 9,
+     'log' => ' (0.3ms) show tables
+ (0.3ms) SHOW columns FROM `myDb`.`user`
+ (0.2ms) show tables
+ (0.3ms) SHOW columns FROM `myDb`.`user`
+ (0.2ms) SELECT `id`,`email`,`password`,`name`,`role`,`verified`,`auth_key`,`timeout`,`refresh_key`,`created` FROM `user` WHERE `auth_key`=\'1b3307789c9e0467a1a199c757818b38734865c6\' AND `timeout`>1521745012
+ (0.2ms) show tables
+ (0.5ms) SHOW columns FROM `myDb`.`place`
+ (0.2ms) show tables
+ (0.4ms) SHOW columns FROM `myDb`.`place`
+ (0.4ms) SHOW columns FROM `myDb`.`place`
+',
+  )),
+   'fluid' => true,
+   'table' => 'place',
+   'ttl' => 60,
+   'rel_ttl' => 0,
+   'primary' => 'id',
+   'smartLoading' => true,
+   'standardiseID' => true,
+   'dbsType' => 'sql',
+   'fieldsCache' => 
+  array (
+  ),
+   'saveCsd' => 
+  array (
+  ),
+   'collection' => NULL,
+   'relFilter' => 
+  array (
+  ),
+   'hasCond' => NULL,
+   'whitelist' => NULL,
+   'relWhitelist' => NULL,
+   'grp_stack' => NULL,
+   'countFields' => 
+  array (
+  ),
+   'preBinds' => 
+  array (
+  ),
+   'vFields' => NULL,
+   '_ttl' => 0,
+   'charset' => NULL,
+   'mapper' => 
+  DB\SQL\Mapper::__set_state(array(
+     'db' => 
+    DB\SQL::__set_state(array(
+       'uuid' => '2x5aqr2xbiuck',
+       'pdo' => 
+      PDO::__set_state(array(
+      )),
+       'dsn' => 'mysql:host=db;port=3306;dbname=myDb',
+       'engine' => 'mysql',
+       'dbname' => 'myDb',
+       'trans' => false,
+       'rows' => 9,
+       'log' => ' (0.3ms) show tables
+ (0.3ms) SHOW columns FROM `myDb`.`user`
+ (0.2ms) show tables
+ (0.3ms) SHOW columns FROM `myDb`.`user`
+ (0.2ms) SELECT `id`,`email`,`password`,`name`,`role`,`verified`,`auth_key`,`timeout`,`refresh_key`,`created` FROM `user` WHERE `auth_key`=\'1b3307789c9e0467a1a199c757818b38734865c6\' AND `timeout`>1521745012
+ (0.2ms) show tables
+ (0.5ms) SHOW columns FROM `myDb`.`place`
+ (0.2ms) show tables
+ (0.4ms) SHOW columns FROM `myDb`.`place`
+ (0.4ms) SHOW columns FROM `myDb`.`place`
+',
+    )),
+     'engine' => 'mysql',
+     'source' => 'place',
+     'table' => '`place`',
+     '_id' => NULL,
+     'fields' => 
+    array (
+      'id' => 
+      array (
+        'type' => 'int(11)',
+        'pdo_type' => 1,
+        'default' => NULL,
+        'nullable' => false,
+        'pkey' => true,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+        'previous' => NULL,
+      ),
+      'name' => 
+      array (
+        'type' => 'varchar(255)',
+        'pdo_type' => 2,
+        'default' => NULL,
+        'nullable' => false,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'description' => 
+      array (
+        'type' => 'text',
+        'pdo_type' => 2,
+        'default' => NULL,
+        'nullable' => true,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'created' => 
+      array (
+        'type' => 'bigint(20)',
+        'pdo_type' => 1,
+        'default' => NULL,
+        'nullable' => false,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'edited' => 
+      array (
+        'type' => 'bigint(20)',
+        'pdo_type' => 1,
+        'default' => NULL,
+        'nullable' => false,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'address' => 
+      array (
+        'type' => 'varchar(255)',
+        'pdo_type' => 2,
+        'default' => NULL,
+        'nullable' => true,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'coords' => 
+      array (
+        'type' => 'varchar(255)',
+        'pdo_type' => 2,
+        'default' => NULL,
+        'nullable' => true,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'link' => 
+      array (
+        'type' => 'varchar(255)',
+        'pdo_type' => 2,
+        'default' => NULL,
+        'nullable' => true,
+        'pkey' => false,
+        'value' => NULL,
+        'initial' => NULL,
+        'changed' => false,
+      ),
+      'owner' => 
+      array (
+        'type' => 'int(11)',
+        'pdo_type' => 1,
+        'default' => NULL,
+        'nullable' => true,
+        'pkey' => false,
+        'value' => 1,
+        'initial' => NULL,
+        'changed' => true,
+      ),
+    ),
+     'adhoc' => 
+    array (
+    ),
+     'props' => 
+    array (
+    ),
+     'query' => 
+    array (
+    ),
+     'ptr' => 0,
+     'trigger' => 
+    array (
+    ),
+  )),
+   'queryParser' => 
+  DB\CortexQueryParser::__set_state(array(
+     'queryCache' => 
+    array (
+      'tvyamntyhroh.sql-mysql' => 
+      array (
+        0 => '`auth_key`=? AND `timeout`>?',
+        1 => '1b3307789c9e0467a1a199c757818b38734865c6',
+        2 => 1521745012,
+      ),
+    ),
+  )),
+   'query' => 
+  array (
+  ),
+   'ptr' => 0,
+   'trigger' => 
+  array (
+    'beforeinsert' => 
+    Closure::__set_state(array(
+    )),
+    'beforeupdate' => 
+    Closure::__set_state(array(
+    )),
+  ),
+))
+Thu, 22 Mar 2018 18:59:19 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:59:19 +0000 [172.19.0.1] NULL
+Thu, 22 Mar 2018 18:59:44 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 18:59:44 +0000 [172.19.0.1] NULL
+Thu, 22 Mar 2018 19:00:50 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:01:20 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:01:57 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:02:30 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:02:56 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:05:25 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:06:58 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:09:19 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:09:19 +0000 [172.19.0.1] Place
+Thu, 22 Mar 2018 19:10:14 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:10:27 +0000 [172.19.0.1] POST /api/login
+Thu, 22 Mar 2018 19:10:35 +0000 [172.19.0.1] POST /api/places
+Thu, 22 Mar 2018 19:10:35 +0000 [172.19.0.1] Place
+Thu, 22 Mar 2018 19:10:35 +0000 [172.19.0.1] ... Done
+Thu, 22 Mar 2018 19:10:53 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 19:11:32 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 19:12:31 +0000 [172.19.0.1] GET /api/places
+Thu, 22 Mar 2018 19:13:24 +0000 [172.19.0.1] GET /api/places

@@ -14,11 +14,13 @@ class Place extends \DB\Cortex {
             ),
             'created' => array(
                 'type' => 'INT8',
-                'nullable' => false
+                'nullable' => false,
+                'default' => 0
             ),
             'edited' => array(
                 'type' => 'INT8',
-                'nullable' => false
+                'nullable' => false,
+                'default' => 0
             ),
             'address' => array(
                 'type' => 'VARCHAR256',

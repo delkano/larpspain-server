@@ -8,3 +8,12 @@
 - execute
 
     vendor/bin/behat features/
+    
+**Working tests**
+   
+--  features/user/login.feature
+
+**Not working**
+
+-- features/user/crud.feature
+

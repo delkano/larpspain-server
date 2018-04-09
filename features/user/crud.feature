@@ -13,20 +13,72 @@ Feature: CRUD for user model
     """
     {
         "type": "users",
-	    "data": {
-		"attributes": {
-			"name": "John Doe",
-			"email": "john@doe.com",
-			"password": "1234abc!"
-		}
-	}
+        "data": {
+            "attributes": {
+                "name": "John Doe",
+                "email": "john@doe.com",
+                "password": "1234abc!"
+            }
+        }
+    }
     """
     Then I request "/api/users" using HTTP POST
     And the response body contains JSON:
     """
     {
-
-    }
+        "links": {
+            "self": "/api/users/22"
+        },
+        "data": {
+            "type": "users",
+            "id": 10,
+            "attributes": {
+                "email": "john@doe.com",
+                "name": "John Doe",
+                "role": "USER",
+                "verified": false,
+                "created": 0,
+                "_id": 10
+            },
+            "relationships": {
+                "page": {
+                    "links": {
+                        "self": "/api/users/22/relationships/page",
+                        "related": "/api/users/22/page"
+                    },
+                    "data": []
+                    },
+                "file": {
+                    "links": {
+                        "self": "/api/users/22/relationships/file",
+                        "related": "/api/users/22/file"
+                    },
+                    "data": []
+                },
+                "place": {
+                    "links": {
+                        "self": "/api/users/22/relationships/place",
+                        "related": "/api/users/22/place"
+                        },
+                        "data": []
+                    },
+                    "news": {
+                        "links": {
+                            "self": "/api/users/22/relationships/news",
+                            "related": "/api/users/22/news"
+                        },
+                        "data": []
+                    },
+                    "events": {
+                        "links": {
+                            "self": "/api/users/22/relationships/events",
+                            "related": "/api/users/22/events"
+                        },
+                        "data": []
+                    }
+                }
+            }
+        }
     """
     Then the response code is 201
 

@@ -1,22 +1,22 @@
 {
-  "name": "delkano/larpspain-server",
-  "license": "proprietary",
-  "type": "project",
-  "require": {
-    "ikkez/f3-cortex": "^1.5",
-    "bcosca/fatfree": "^3.6",
-    "delkano/f3-jsonapi": "@dev"
-  },
-  "require-dev": {
-    "behat/behat": "3.2",
-    "imbo/behat-api-extension": "^2.1"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/delkano/f3-jsonapi"
+    "name": "delkano/larpspain-server",
+    "license": "proprietary",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/delkano/f3-jsonapi"
+        }
+    ],
+    "require": {
+        "ikkez/f3-cortex": "^1.5",
+        "bcosca/fatfree": "^3.6",
+        "delkano/f3-jsonapi": "@dev"
+    },
+    "require-dev": {
+        "behat/behat": "3.2",
+        "imbo/behat-api-extension": "^2.1"
     }
-  ]
 }
 
 

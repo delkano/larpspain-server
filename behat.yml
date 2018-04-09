@@ -3,7 +3,7 @@ default:
     extensions:
         Imbo\BehatApiExtension:
             apiClient:
-                base_uri: http://localhost:8001
+                base_uri: http://127.0.0.1:8001
                 timeout: 5.0
                 verify: false
 

@@ -1,7 +1,7 @@
 <?php
 namespace Context;
 
-include('lib/model/user.php');
+//include('lib/model/user.php');
 require_once('vendor/autoload.php');
 
 use Behat\Behat\Context\Context;
@@ -22,10 +22,10 @@ class UserContext implements Context
         $f3->set('DB', new \DB\SQL(
             "mysql:host=$f3[DB_SERVER];port=$f3[DB_PORT];dbname=$f3[DB_NAME]",
             $f3['DB_USER'],
-            $f3['DB_PASSWORD'
+            $f3['DB_PASSWORD']
         ));
 
-        $f3->run();
+        //$f3->run();
     }
 
     /**
@@ -41,7 +41,7 @@ class UserContext implements Context
 
             $user->set('name',$line['Name']);
             $user->set('email',$line['Email']);
-            $user->set_password(['Password']);
+            $user->set_password($line['Password']);
 
             $user->save();
         }
